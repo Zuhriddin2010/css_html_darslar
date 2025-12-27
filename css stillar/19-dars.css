@@ -1,0 +1,59 @@
+@keyframes box-mover{
+    0%{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+
+    }
+    25%{
+        background-color: green;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+
+    }
+    50%{
+        background-color: rgb(25, 17, 112);
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+
+    }
+    75%{
+        background-color: rgb(143, 182, 26);
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+
+    }
+
+}
+.box{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    background-color: rgb(220, 153, 153);
+    color: white;
+
+}
+.box:hover{
+    width: 200px;
+    padding: 50px;
+    height: 150px;
+    border-radius:10px;
+    position: relative;
+    background-color: rgb(220, 153, 153);
+    color: white;
+    animation-name: box-mover;
+    transition: all 3s;
+   animation-duration: 4s;
+   animation-iteration-count: 1;
+   
+}
+section{
+    border: 2px solid black;
+    margin: 150px;
+    padding: 30px;
+}

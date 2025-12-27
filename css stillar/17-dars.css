@@ -1,0 +1,54 @@
+section{
+    border: 2px solid black;
+    padding: 80px;
+    margin: 50px;
+    transition: all 3s;
+    transition-delay: 1s;
+}
+section:hover{
+    border: 3px solid rgb(234, 31, 31);
+    border-radius: 15px;
+    background-color: rgb(148, 193, 255);
+}
+h3,ol,p{
+    transition: all 3s;
+}
+h2{
+    background-color: green;
+    border: 15px;
+    color: white;
+    padding: 60px;
+    text-shadow: 9px 10px 1px blue;
+}
+#bir:hover{
+    background-color: green;
+    border: 15px;
+    color: white;
+    padding: 60px;
+    text-shadow: 9px 10px 1px blue;
+    transform: rotate(180deg);  
+}
+#ikki:hover{
+    background-color: green;
+    border: 15px;
+    color: white;
+    padding: 60px;
+    text-shadow: 9px 10px 1px blue;
+    transform: scale(3deg); 
+}
+#uch:hover{
+    background-color: green;
+    border: 15px;
+    color: white;
+    padding: 60px;
+    text-shadow: 9px 10px 1px blue;
+    transform:translate(3px 4px);
+}
+#tort{
+    background-color: green;
+    border: 15px;
+    color: white;
+    padding: 60px;
+    text-shadow: 9px 10px 1px blue;
+    transform: skew(20deg,10deg);
+}

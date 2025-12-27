@@ -1,0 +1,27 @@
+body{
+    background-image: url('/bmw\ m5.jpg');
+}
+.contener{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+.contener h2{
+    font-size: 30px;
+    bottom: 4px;
+    margin: 4px;
+}
+.contener h6{
+    font-size: 16px;
+    margin-top: 16px;
+}
+p{
+    font-size: 16px;
+}
+.contener p{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+
+}
+h3{
+    padding: 30px;
+    background-color: brown;
+    margin: 0;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+section{
+    border: 3px solid black;
+    padding: 30px;
+    margin: 200px;
+    height: 3000px;
+    position: relative;
+}
+p{
+    border: 3px solid black;
+    padding: 30px;
+    margin: 200px;
+    height: 150px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+   overflow: auto; 
+}
+#p_1{
+    position: static;
+}
+#p_2{
+  position: relative;
+  top:30px;
+  left: 100px;
+}
+p_3{
+    position: fixed;
+    top: 100px;
+    left: 10px;
+}
+p_4{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+p_5{
+    position:sticky;
+    top:200px ;
+}
